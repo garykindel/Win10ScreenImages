@@ -6,6 +6,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
-  </PropertyGroup>
-
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed> <!--  WPF Does nort support this enabled -->
+    <PublishReadyToRun>false</PublishReadyToRun>  <!--  Setting this to true did not significantly help performance of this app-->   
+   </PropertyGroup>
 </Project>
