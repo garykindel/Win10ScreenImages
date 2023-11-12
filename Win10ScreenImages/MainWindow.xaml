@@ -1,0 +1,23 @@
+﻿<Window x:Class="Win10ScreenImages.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Win10ScreenImages"
+        mc:Ignorable="d"
+        Title="Win 10 Login Screen Images" Height="450" Width="800">
+    <Grid Background="LightGray" Margin="5">
+        <StackPanel>
+            <TextBlock Text="{StaticResource ImageGenericPath}"/>
+            <TextBox Background="Transparent" Text="{StaticResource ImageActualPath}"/>
+            <TextBox Background="Transparent" Text="{StaticResource SaveFolderPath}"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Load" Width="50" HorizontalAlignment="Left" Click="Button_Click"/>
+                <Button x:Name="btnSave" Content="Save" Width="50" HorizontalAlignment="Left"  Click="btnSave_Click"/>
+            </StackPanel>
+            <WrapPanel x:Name="Images">
+            
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

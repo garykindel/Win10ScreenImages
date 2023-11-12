@@ -1,0 +1,12 @@
+﻿<Application x:Class="Win10ScreenImages.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Win10ScreenImages"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <sys:String x:Key="ImageGenericPath">C:\Users\USERNAME\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets</sys:String>
+        <sys:String x:Key="ImageActualPath">C:\Users\KindelG\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets</sys:String>
+        <sys:String x:Key="SaveFolderPath">C:\Users\KindelG\Pictures\Windows 10</sys:String>
+    </Application.Resources>
+</Application>
